@@ -1,0 +1,318 @@
+[94.749927521] 2017-12-02 12:27:19,742 - INFO - launcher: Starting sanity checks
+[110.375642776] 2017-12-02 12:27:19,758 - INFO - launcher: Checking for python 3.5+
+[110.375642776] 2017-12-02 12:27:19,758 - INFO - launcher: Checking console encoding
+[126.999378204] 2017-12-02 12:27:19,775 - INFO - launcher: Setting console encoding to UTF-8
+[126.999378204] 2017-12-02 12:27:19,775 - INFO - launcher: Ensuring we're in the right folder
+[142.625570297] 2017-12-02 12:27:19,790 - INFO - launcher: Adding local bins/ folder to path
+[142.625570297] 2017-12-02 12:27:19,790 - INFO - launcher: Checks passed.
+[142.625570297] 2017-12-02 12:27:19,790 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[5.3082485198974609] 2017-12-02 12:27:24,956 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 203 in _setup_logging: Set logging level to INFO
+[5.3087501525878906] 2017-12-02 12:27:24,956 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 76 in __init__: Loaded autoplaylist with 3055 entries
+[5.313249826] launcher-INFO: Connecting
+[9.5571234226226807] 2017-12-02 12:27:29,205 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 993 in on_ready: Connection established, ready to go.
+[9.5571234226226807] 2017-12-02 12:27:29,205 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 314 in _cache_app_info: Caching app info
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 826 in _scheck_server_permissions: Checking server permissions
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 834 in _scheck_configs: Validating config
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.config | In config.py::MainThread(4728), line 175 in async_validate: Validating options...
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 837 in _scheck_configs: Validating permissions config
+[9.7622482776641846] 2017-12-02 12:27:29,410 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4728), line 59 in async_validate: Validating permissions...
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1014 in on_ready: Bot:   381625136253501440/aa898246[Taiwan Music Bot]#0027 [BOT]
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1022 in on_ready: Owner: 325290687698567168/aa898246[Taiwan]#2634
+
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1025 in on_ready: Server List:
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1026 in <listcomp>:  - aa898246[The Taiwan Server]
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1070 in on_ready: Not bound to any text channels
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1096 in on_ready: Not autojoining any voice channels
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1100 in on_ready: Options:
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1102 in on_ready:   Command prefix: tw;
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1103 in on_ready:   Default volume: 15%
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1107 in on_ready:   Auto-Summon: Enabled
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1108 in on_ready:   Auto-Playlist: Disabled
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1109 in on_ready:   Auto-Pause: Enabled
+[9.7622482776641846] 2017-12-02 12:27:29,410 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1110 in on_ready:   Delete Messages: Disabled
+[9.7778763771057129] 2017-12-02 12:27:29,425 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1113 in on_ready:   Debug Mode: Disabled
+[9.7778763771057129] 2017-12-02 12:27:29,425 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1114 in on_ready:   Downloaded songs will be saved
+[34.9467508792877197] 2017-12-02 12:27:54,594 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on aa898246[The Taiwan Server]/Music -> [CONNECT, MUTE]
+[38.5262503623962402] 2017-12-02 12:27:58,174 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;summon
+[38.5917489528656006] 2017-12-02 12:27:58,239 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1769 in cmd_summon: Joining aa898246[The Taiwan Server]/Music
+[38.5962488651275635] 2017-12-02 12:27:58,244 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 427 in get_voice_client: Connection attempt 1 to Music
+[38.5962488651275635] 2017-12-02 12:27:58,244 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[38.5967488288879395] 2017-12-02 12:27:58,244 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[38.5972490310668945] 2017-12-02 12:27:58,245 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[38.8007488250732422] 2017-12-02 12:27:58,448 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 381625136253501440/aa898246[Taiwan Music Bot]#0027 on aa898246[The Taiwan Server]/Music -> [JOIN, CONNECT]
+[38.8012506961822510] 2017-12-02 12:27:58,449 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 381625136253501440/aa898246[Taiwan Music Bot]#0027 has joined aa898246[The Taiwan Server]/Music
+[38.8202495574951172] 2017-12-02 12:27:58,468 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[39.0232496261596680] 2017-12-02 12:27:58,671 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[39.5972483158111572] 2017-12-02 12:27:59,245 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[39.5977482795715332] 2017-12-02 12:27:59,245 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 453 in get_voice_client: Connected in 1.0s
+[39.5977482795715332] 2017-12-02 12:27:59,245 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 454 in get_voice_client: Connected to aa898246[The Taiwan Server]/Music
+[39.5997486114501953] 2017-12-02 12:27:59,247 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4728), line 311 in websocket_check: Starting websocket check loop for aa898246[The Taiwan Server]
+[48.0457503795623779] 2017-12-02 12:28:07,693 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play Pokémon GSC/HGSS/B2W2: Vs. Lance and Red! (All 3 Versions Merged)
+[50.4967520236968994] 2017-12-02 12:28:10,144 - ERROR - musicbot.bot | In bot.py::MainThread(4728), line 2479 in on_message: Error in play: ExtractionError: Could not extract information from Pokémon GSC/HGSS/B2W2: Vs. Lance and Red! (All 3 Versions Merged)
+
+ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 506, in _request_webpage
+    return self._downloader.urlopen(url_or_request)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 2196, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\utils.py", line 930, in http_open
+    req)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 784, in extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 437, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\generic.py", line 2110, in _real_extract
+    full_response = self._request_webpage(request, video_id)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 515, in _request_webpage
+    raise ExtractorError(errmsg, sys.exc_info()[2], cause=err)
+youtube_dl.utils.ExtractorError: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\playlist.py", line 56, in add_entry
+    info = await self.downloader.extract_info(self.loop, song_url, download=False)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\downloader.py", line 83, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 795, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 856, in process_ie_result
+    extra_info=extra_info)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 807, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 612, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 582, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\bot.py", line 2466, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\bot.py", line 1411, in cmd_play
+    entry, position = await player.playlist.add_entry(song_url, channel=channel, author=author)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\playlist.py", line 58, in add_entry
+    raise ExtractionError('Could not extract information from {}\n\n{}'.format(song_url, e))
+musicbot.exceptions.ExtractionError: Could not extract information from Pokémon GSC/HGSS/B2W2: Vs. Lance and Red! (All 3 Versions Merged)
+
+ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+[81.5742504596710205] 2017-12-02 12:28:41,222 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+[85.0052497386932373] 2017-12-02 12:28:44,653 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[85.0107495784759521] 2017-12-02 12:28:44,658 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 195 in _download: Download cached: https://www.youtube.com/watch?v=z4qiU-SWEUI
+[87.0022482872009277] 2017-12-02 12:28:46,650 - FFMPEG - musicbot.player | In player.py::MainThread(4728), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-z4qiU-SWEUI-Pokemon_GSC_HGSS_B2W2_-_Vs._Lance_and_Red_All_3_Versions_Merged.webm
+[87.1552500724792480] 2017-12-02 12:28:46,803 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[105.0647492408752441] 2017-12-02 12:29:04,712 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;help
+[146.2752490043640137] 2017-12-02 12:29:45,923 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;volume 50
+[153.3007495403289795] 2017-12-02 12:29:52,948 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;queue
+[199.6537504196166992] 2017-12-02 12:30:39,301 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[217.4117496013641357] 2017-12-02 12:30:57,059 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;joinserver
+[244.5352494716644287] 2017-12-02 12:31:24,183 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on aa898246[The Taiwan Server]/Music -> [LEAVE, DISCONNECT]
+[244.5352494716644287] 2017-12-02 12:31:24,183 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has left aa898246[The Taiwan Server]/Music
+[272.3832511901855469] 2017-12-02 12:31:52,031 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2592 in on_server_join: Bot has been joined server: Test
+[272.4012513160705566] 2017-12-02 12:31:52,049 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2605 in on_server_join: Creating data folder for server 386373762309685268
+[309.1782505512237549] 2017-12-02 12:32:28,826 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;summon
+[309.2542498111724854] 2017-12-02 12:32:28,902 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 1769 in cmd_summon: Joining Test/General
+[309.2552492618560791] 2017-12-02 12:32:28,903 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 427 in get_voice_client: Connection attempt 1 to General
+[309.2557487487792969] 2017-12-02 12:32:28,903 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[309.2562506198883057] 2017-12-02 12:32:28,904 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[309.2567489147186279] 2017-12-02 12:32:28,904 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[309.4627501964569092] 2017-12-02 12:32:29,110 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 381625136253501440/aa898246[Taiwan Music Bot]#0027 on Test/General -> [JOIN, CONNECT]
+[309.4632487297058105] 2017-12-02 12:32:29,111 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 381625136253501440/aa898246[Taiwan Music Bot]#0027 has joined Test/General
+[309.5422489643096924] 2017-12-02 12:32:29,190 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[309.6757500171661377] 2017-12-02 12:32:29,323 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[311.1507496833801270] 2017-12-02 12:32:30,798 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[311.1507496833801270] 2017-12-02 12:32:30,798 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 453 in get_voice_client: Connected in 1.9s
+[311.1512496471405029] 2017-12-02 12:32:30,799 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 454 in get_voice_client: Connected to Test/General
+[311.3307504653930664] 2017-12-02 12:32:30,978 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4728), line 311 in websocket_check: Starting websocket check loop for Test
+[340.6312489509582520] 2017-12-02 12:33:00,279 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+[344.0067491531372070] 2017-12-02 12:33:03,654 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 386373762309685268
+[344.2727494239807129] 2017-12-02 12:33:03,920 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 195 in _download: Download cached: https://www.youtube.com/watch?v=z4qiU-SWEUI
+[345.9937503337860107] 2017-12-02 12:33:05,641 - FFMPEG - musicbot.player | In player.py::MainThread(4728), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-z4qiU-SWEUI-Pokemon_GSC_HGSS_B2W2_-_Vs._Lance_and_Red_All_3_Versions_Merged.webm
+[346.0567488670349121] 2017-12-02 12:33:05,704 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 386373762309685268
+[356.2877497673034668] 2017-12-02 12:33:15,935 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+[357.9967489242553711] 2017-12-02 12:33:17,644 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[357.9992496967315674] 2017-12-02 12:33:17,647 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 195 in _download: Download cached: https://www.youtube.com/watch?v=z4qiU-SWEUI
+[358.6907496452331543] 2017-12-02 12:33:18,338 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on Test/General -> [LEAVE, DISCONNECT]
+[358.6912493705749512] 2017-12-02 12:33:18,339 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has left Test/General
+[359.0152487754821777] 2017-12-02 12:33:18,663 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2577 in on_voice_state_update: Pausing in Test/General (empty channel)
+[359.1907496452331543] 2017-12-02 12:33:18,838 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on aa898246[The Taiwan Server]/Music -> [JOIN, CONNECT]
+[359.1912493705749512] 2017-12-02 12:33:18,839 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has joined aa898246[The Taiwan Server]/Music
+[360.0022499561309814] 2017-12-02 12:33:19,650 - FFMPEG - musicbot.player | In player.py::MainThread(4728), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-z4qiU-SWEUI-Pokemon_GSC_HGSS_B2W2_-_Vs._Lance_and_Red_All_3_Versions_Merged.webm
+[360.5887494087219238] 2017-12-02 12:33:20,236 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[364.4347486495971680] 2017-12-02 12:33:24,082 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on aa898246[The Taiwan Server]/Music -> [LEAVE, DISCONNECT]
+[364.4347486495971680] 2017-12-02 12:33:24,082 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has left aa898246[The Taiwan Server]/Music
+[364.4457495212554932] 2017-12-02 12:33:24,093 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2577 in on_voice_state_update: Pausing in aa898246[The Taiwan Server]/Music (empty channel)
+[364.4477493762969971] 2017-12-02 12:33:24,095 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on Test/General -> [JOIN, CONNECT]
+[364.4477493762969971] 2017-12-02 12:33:24,095 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has joined Test/General
+[364.4492502212524414] 2017-12-02 12:33:24,097 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2567 in on_voice_state_update: Unpausing in Test/General
+[386.2847497463226318] 2017-12-02 12:33:45,932 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2609 in on_server_remove: Bot has been removed from server: Test
+[386.3067491054534912] 2017-12-02 12:33:45,954 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2610 in on_server_remove: Updated server list:
+[386.3072490692138672] 2017-12-02 12:33:45,955 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2611 in <listcomp>:  - aa898246[The Taiwan Server]
+[393.3052489757537842] 2017-12-02 12:33:52,953 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan]#2634 on aa898246[The Taiwan Server]/Music -> [JOIN, CONNECT]
+[393.3057496547698975] 2017-12-02 12:33:52,953 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan]#2634 has joined aa898246[The Taiwan Server]/Music
+[393.3637497425079346] 2017-12-02 12:33:53,011 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2567 in on_voice_state_update: Unpausing in aa898246[The Taiwan Server]/Music
+[503.2072496414184570] 2017-12-02 12:35:42,855 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[545.6792490482330322] 2017-12-02 12:36:25,327 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+[546.6357486248016357] 2017-12-02 12:36:26,283 - ERROR - musicbot.bot | In bot.py::MainThread(4728), line 2479 in on_message: Error in play: ExtractionError: Could not extract information from tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+
+ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 506, in _request_webpage
+    return self._downloader.urlopen(url_or_request)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 2196, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\utils.py", line 930, in http_open
+    req)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 784, in extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 437, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\generic.py", line 2110, in _real_extract
+    full_response = self._request_webpage(request, video_id)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 515, in _request_webpage
+    raise ExtractorError(errmsg, sys.exc_info()[2], cause=err)
+youtube_dl.utils.ExtractorError: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\playlist.py", line 56, in add_entry
+    info = await self.downloader.extract_info(self.loop, song_url, download=False)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\downloader.py", line 83, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 795, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 856, in process_ie_result
+    extra_info=extra_info)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 807, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 612, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sup\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 582, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\bot.py", line 2466, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\bot.py", line 1411, in cmd_play
+    entry, position = await player.playlist.add_entry(song_url, channel=channel, author=author)
+  File "C:\Users\sup\Desktop\aa898246 Music Bot\musicbot\playlist.py", line 58, in add_entry
+    raise ExtractionError('Could not extract information from {}\n\n{}'.format(song_url, e))
+musicbot.exceptions.ExtractionError: Could not extract information from tw;play https://www.youtube.com/watch?v=z4qiU-SWEUI
+
+ERROR: Unable to download webpage: <urlopen error [Errno 11001] getaddrinfo failed> (caused by URLError(gaierror(11001, 'getaddrinfo failed'),))
+[573.1922500133514404] 2017-12-02 12:36:52,840 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan]#2634: tw;play Undertale - Asrielovania
+[577.7852494716644287] 2017-12-02 12:36:57,433 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[577.9022495746612549] 2017-12-02 12:36:57,550 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=sgbwYDhn8R4
+[580.8127503395080566] 2017-12-02 12:37:00,460 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=sgbwYDhn8R4
+[580.8382501602172852] 2017-12-02 12:37:00,486 - FFMPEG - musicbot.player | In player.py::MainThread(4728), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sgbwYDhn8R4-Undertale_-_Asrielovania_Megalovania_-_Extended.webm
+[581.1852509975433350] 2017-12-02 12:37:00,833 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[1566.9367487430572510] 2017-12-02 12:53:26,584 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[5692.5297515392303467] 2017-12-02 14:02:12,177 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan Empire]#2634 on aa898246[The Taiwan Server]/AFK -> [LEAVE, MOVE, MUTE]
+[6143.0227499008178711] 2017-12-02 14:09:42,670 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 325290687698567168/aa898246[Taiwan Empire]#2634 on aa898246[The Taiwan Server]/Music -> [JOIN, MOVE, UNMUTE]
+[6143.0237495899200439] 2017-12-02 14:09:42,671 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2539 in on_voice_state_update: 325290687698567168/aa898246[Taiwan Empire]#2634 has joined aa898246[The Taiwan Server]/Music
+[6148.8257493972778320] 2017-12-02 14:09:48,473 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;play Undertale - Asrielovania
+[6153.9152500629425049] 2017-12-02 14:09:53,563 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[6153.9187502861022949] 2017-12-02 14:09:53,566 - INFO - musicbot.entry | In entry.py::MainThread(4728), line 195 in _download: Download cached: https://www.youtube.com/watch?v=sgbwYDhn8R4
+[6155.9007489681243896] 2017-12-02 14:09:55,548 - FFMPEG - musicbot.player | In player.py::MainThread(4728), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sgbwYDhn8R4-Undertale_-_Asrielovania_Megalovania_-_Extended.webm
+[6155.9567482471466064] 2017-12-02 14:09:55,604 - DEBUG - musicbot.bot | In bot.py::MainThread(4728), line 763 in serialize_queue: Serializing queue for 347258645383348225
+[6722.3832492828369141] 2017-12-02 14:19:22,031 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help pldump,
+[6732.5507504940032959] 2017-12-02 14:19:32,198 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help pldump
+[6747.7807490825653076] 2017-12-02 14:19:47,428 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help shuffle
+[6767.6582496166229248] 2017-12-02 14:20:07,306 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help setname
+[6786.8932497501373291] 2017-12-02 14:20:26,541 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help setnick
+[6812.5197496414184570] 2017-12-02 14:20:52,167 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;help stream
+[7057.6417500972747803] 2017-12-02 14:24:57,289 - INFO - musicbot.bot | In bot.py::MainThread(4728), line 2359 in on_message: 325290687698567168/aa898246[Taiwan Empire]#2634: tw;shutdown
+[7058.2177488803863525] 2017-12-02 14:24:57,865 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4728), line 2528 in on_voice_state_update: Voice state update for 381625136253501440/aa898246[Taiwan Music Bot]#0027 on aa898246[The Taiwan Server]/Music -> [DISCONNECT]
+[7058.321750402] launcher-INFO: All done.
